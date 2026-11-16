@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contact Nimba Craft Corner to ask a question or place an order.">
+  <title>Contact | Nimba Craft Corner</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@600;700&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="index.html">
+        <img src="logo.jpg" alt="Nimba Craft Corner logo: a mountain inside a woven square">
+        <span class="brand-name">Nimba Craft Corner<span>Handmade with care</span></span>
+      </a>
+      <nav aria-label="Main navigation">
+        <ul class="nav-list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="service.html">Products</a></li>
+          <li><a href="contact.html" aria-current="page">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="container section">
+      <h1>Contact us</h1>
+      <p class="lead">Questions, custom colours or ready to order? Send us a message and we will reply within two working days.</p>
+
+      <div class="contact-grid">
+
+        <section class="contact-card" aria-labelledby="details-title">
+          <h2 id="details-title">Our details</h2>
+          <p><em>Sample details. Replace with your own.</em></p>
+          <dl>
+            <dt>Address</dt>
+            <dd>
+              <address>
+                Nimba Craft Corner<br>
+                12 Market Street<br>
+                Your City, Your Country
+              </address>
+            </dd>
+            <dt>Phone</dt>
+            <dd><a href="tel:+000000000000">+000 000 000 000</a></dd>
+            <dt>Email</dt>
+            <dd><a href="mailto:hello@nimbacraftcorner.example">hello@nimbacraftcorner.example</a></dd>
+            <dt>Workshop hours</dt>
+            <dd>Monday to Saturday, 9:00 to 17:00</dd>
+          </dl>
+        </section>
+
+        <section aria-labelledby="form-title">
+          <h2 id="form-title">Send a message</h2>
+          <form action="#" method="post">
+
+            <div class="field">
+              <label for="name">Full name</label>
+              <input type="text" id="name" name="name" autocomplete="name" required>
+            </div>
+
+            <div class="field">
+              <label for="email">Email address</label>
+              <input type="email" id="email" name="email" autocomplete="email" required>
+            </div>
+
+            <div class="field">
+              <label for="phone">Phone <span class="hint">(optional)</span></label>
+              <input type="tel" id="phone" name="phone" autocomplete="tel">
+            </div>
+
+            <div class="field">
+              <label for="product">Product you are asking about</label>
+              <select id="product" name="product">
+                <option value="">Choose one</option>
+                <option value="basket">Storage basket</option>
+                <option value="bag">Market bag</option>
+                <option value="mat">Woven floor mat</option>
+                <option value="custom">Custom order</option>
+                <option value="other">Something else</option>
+              </select>
+            </div>
+
+            <fieldset>
+              <legend>How should we reply?</legend>
+              <div class="radio-row">
+                <label for="reply-email"><input type="radio" id="reply-email" name="reply" value="email" checked> Email</label>
+                <label for="reply-phone"><input type="radio" id="reply-phone" name="reply" value="phone"> Phone</label>
+              </div>
+            </fieldset>
+
+            <div class="field">
+              <label for="message">Your message</label>
+              <textarea id="message" name="message" required></textarea>
+            </div>
+
+            <div>
+              <button class="button" type="submit">Send message</button>
+            </div>
+          </form>
+        </section>
+
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <h2>Nimba Craft Corner</h2>
+          <p>Handwoven baskets, bags and mats, made with care.</p>
+        </div>
+        <nav aria-label="Footer navigation">
+          <h2>Pages</h2>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="service.html">Products</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+        <div>
+          <h2>Get in touch</h2>
+          <p><a href="mailto:hello@nimbacraftcorner.example">hello@nimbacraftcorner.example</a></p>
+        </div>
+      </div>
+      <p class="copyright">&copy; 2026 Nimba Craft Corner. All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
